@@ -15,4 +15,3 @@ def download(use_cache=True):
     filename = file_names['raw_titanic_data']
 
     download_to_file_from_url(url, filename, use_cache=use_cache)
-
