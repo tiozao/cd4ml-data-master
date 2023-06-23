@@ -62,7 +62,7 @@ class TestModelCache:
         mlflow.search_runs = MagicMock(side_effect=get_search_return_values)
 
         available_models = cache.list_available_models_from_ml_flow()
-        assert available_models == {"groceries": [], "houses": [], "iris": []}
+        assert available_models == {"groceries": [], "houses": [], "iris": [], "titanic": []}
 
     def test_list_no_houses_experiment_not_available(self):
         cache = ModelCache()
