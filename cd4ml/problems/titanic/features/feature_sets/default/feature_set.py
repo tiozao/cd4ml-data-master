@@ -1,5 +1,5 @@
 from cd4ml.feature_set import FeatureSetBase
-import cd4ml.problems.titanic.features.feature_functions.feature_functions as ff
+# import cd4ml.problems.titanic.features.feature_functions.feature_functions as ff
 from cd4ml.utils.feature_utils import get_generic_feature_set, get_feature_params
 
 
