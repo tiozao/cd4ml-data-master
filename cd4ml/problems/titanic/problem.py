@@ -2,7 +2,6 @@ from cd4ml.problems.problem_base import ProblemBase
 from cd4ml.problems.titanic.download_data.download_data import download
 import cd4ml.problems.titanic.readers.stream_data as stream_data
 
-
 class Problem(ProblemBase):
     def __init__(self,
                  problem_name,
@@ -18,7 +17,6 @@ class Problem(ProblemBase):
                                       ml_pipeline_params_name=ml_pipeline_params_name,
                                       algorithm_name=algorithm_name,
                                       algorithm_params_name=algorithm_params_name)
-        
         self._stream_data = stream_data.stream_data
 
     @staticmethod
@@ -31,8 +29,7 @@ class Problem(ProblemBase):
 
     def prepare_feature_data(self):
         # do the work required to look up derived features
-        
         pass
-        
+
     def download_data(self):
         download()
