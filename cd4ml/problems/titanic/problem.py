@@ -2,6 +2,7 @@ from cd4ml.problems.problem_base import ProblemBase
 from cd4ml.problems.titanic.download_data.download_data import download
 import cd4ml.problems.titanic.readers.stream_data as stream_data
 
+
 class Problem(ProblemBase):
     def __init__(self,
                  problem_name,
