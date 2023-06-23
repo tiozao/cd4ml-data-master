@@ -1,0 +1,4 @@
+{
+  "categorical": ["Sex",  "PassengerId"],
+  "numerical": ["Pclass", "SibSp", "Parch","Survived"] 
+}
