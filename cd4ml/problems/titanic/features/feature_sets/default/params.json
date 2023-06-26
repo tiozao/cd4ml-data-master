@@ -2,7 +2,7 @@
   "feature_set_name": "default",
   "extra_information_fields": [],
   "base_categorical_n_levels_dict": {
-    "Sex": 2
+    "Sex": 1
   },
   "base_fields_numerical": ["Pclass", "SibSp", "Parch"],
   "derived_categorical_n_levels_dict": {},
