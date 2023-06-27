@@ -1,5 +1,5 @@
 {
-    "default_algorithm": "decision_tree",
+    "default_algorithm": "random_forest",
     "training_random_seed": 4548276,
     "identifier_field": "PassengerId",
     "target_field": "Survived",
