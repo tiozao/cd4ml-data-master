@@ -1,6 +1,6 @@
 {
     "default_algorithm": "random_forest",
-    "training_random_seed": 4548276,
+    "training_random_seed": 1,
     "identifier_field": "PassengerId",
     "target_field": "Survived",
     "feature_set_name": "default",
