@@ -13,10 +13,7 @@
         "training_random_start": 0.0,
         "training_random_end": 0.1,
         "validation_random_start": 0.9,
-        "validation_random_end": 1.0,
-        "n_estimators":100,
-        "max_depth":5,
-        "random_state":1
+        "validation_random_end": 1.0
     },
     "validation_metric_names": ["r2_score", "rms_score", "mad_score", "num_validated"]
 }
