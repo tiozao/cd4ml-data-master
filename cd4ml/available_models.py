@@ -10,8 +10,7 @@ regressor_classes = {
         'decision_tree': DecisionTreeRegressor,
         'ridge': Ridge,
         'lasso': Lasso,
-        'logistic_regression':LogisticRegression}
-        
+        'logistic_regression': LogisticRegression}
 
 classifier_classes = {'random_forest_classifier': RandomForestClassifier}
 
