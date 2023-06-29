@@ -1,0 +1,4 @@
+{
+    "n_estimators": 50,
+    "learning_rate": 0.2
+}
