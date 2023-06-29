@@ -1,4 +1,4 @@
 {
   "categorical": ["Sex",  "PassengerId"],
-  "numerical": ["Pclass", "Age", "SibSp", "Parch","Survived"] 
+  "numerical": ["Pclass", "Age", "Fare", "SibSp", "Parch","Survived"] 
 }
