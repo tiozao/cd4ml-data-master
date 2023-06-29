@@ -11,9 +11,9 @@
     "splitting": {
         "random_seed": 1299472653,
         "training_random_start": 0.0,
-        "training_random_end": 0.7,
-        "validation_random_start": 0.7,
+        "training_random_end": 0.8,
+        "validation_random_start": 0.8,
         "validation_random_end": 1.0
     },
-    "validation_metric_names": ["r2_score", "rms_score", "mad_score", "num_validated"]
+    "validation_metric_names": ["r2_score", "roc_auc", "num_validated"]
 }
