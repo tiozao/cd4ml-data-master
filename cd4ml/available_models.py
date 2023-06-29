@@ -2,7 +2,6 @@ from sklearn.tree import DecisionTreeRegressor
 from sklearn.ensemble import RandomForestRegressor, AdaBoostRegressor, GradientBoostingRegressor
 from sklearn.linear_model import Ridge, Lasso, LogisticRegression, LinearRegression
 from sklearn.ensemble import RandomForestClassifier
-from xgboost import XGBRegressor
 
 regressor_classes = {
         'random_forest': RandomForestRegressor,
@@ -12,8 +11,7 @@ regressor_classes = {
         'ridge': Ridge,
         'lasso': Lasso,
         'logistic_regression': LogisticRegression,
-        'linear_regression': LinearRegression,
-        'XGBRegressor': XGBRegressor}
+        'linear_regression': LinearRegression}
 
 classifier_classes = {'random_forest_classifier': RandomForestClassifier}
 
